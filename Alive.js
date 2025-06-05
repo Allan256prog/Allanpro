@@ -1,7 +1,7 @@
 import cron from 'node-cron';
 import axios from 'axios';
 
-const url = 'https://allanpro.onrender.com';
+const url = https://allanpro-1.onrender.com';
 
 cron.schedule('*/14 * * * *', async () => {
   try {
